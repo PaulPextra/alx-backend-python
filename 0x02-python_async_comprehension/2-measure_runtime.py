@@ -19,4 +19,3 @@ async def measure_runtime() -> float:
     await asyncio.gather(*tasks)
     end = perf_counter() - start
     return end
-
