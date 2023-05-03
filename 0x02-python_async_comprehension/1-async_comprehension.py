@@ -14,5 +14,3 @@ async def async_comprehension() -> List[float]:
     Collect random numbers using async for
     """
     return [i async for i in async_generator()]
-
-
